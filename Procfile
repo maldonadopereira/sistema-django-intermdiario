@@ -1,1 +1,1 @@
-web: unicorn django2.wsgi --log-file -
+web: gunicorn django2.wsgi --log-file -
